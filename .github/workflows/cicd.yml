@@ -1,2 +1,5 @@
 name: My first Addition code
 on: [push]
+jobs:
+  build:
+    runs-on ubuntu-latest
