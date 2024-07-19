@@ -2,7 +2,8 @@ name: My first Addition code
 on: [push]
 jobs:
   build:
-    runs-on: ubuntu-latest
+    #runs-on: ubuntu-latest
+    runs-on: self-hosted
     strategy:
       matrix:
         python-version: [3.9]
