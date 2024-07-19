@@ -2,11 +2,11 @@ name: My first Addition code
 on: [push]
 jobs:
   build:
-    #runs-on: ubuntu-latest
-    runs-on: self-hosted
-    # strategy:
-    #   matrix:
-    #     python-version: [3.9]
+    runs-on: ubuntu-latest
+    #runs-on: self-hosted
+    strategy:
+      matrix:
+        python-version: [3.9]
 
     steps:
     - uses: actions/checkout@v3
