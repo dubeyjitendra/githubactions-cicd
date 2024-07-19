@@ -4,7 +4,7 @@ def add(a, b):
 def sub(a, b):
     return a - b
 
-def mul(a,b):
+def mul(a, b):
     return a * b
 
 def divide(a,b):
@@ -18,10 +18,10 @@ def test_sub():
     assert sub(5,2) == 3
     assert sub(1,-1) == 2
 
-def test_mul(a,b):
+def test_mul():
     assert mul(5,4) == 20
     assert mul(5,2) == 10
 
-def test_divide(a,b):
+def test_divide():
     assert divide(10,2) == 5
     assert divide(100,10)== 10
